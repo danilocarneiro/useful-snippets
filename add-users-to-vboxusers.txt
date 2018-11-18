@@ -1,0 +1,7 @@
+Add users to vbox users
+
+It's necessary to add current user to vboxusers group in order to be able to access flashdrive into VirtualBox machines. It may be useful to run applications that only work in Windows or Mac (e.g.: eletronic petition systems)
+
+sudo usermod -a -G vboxusers $USERS
+
+Reference: https://askubuntu.com/questions/377778/how-to-add-users-to-vboxusers
